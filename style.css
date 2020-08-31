@@ -1,0 +1,108 @@
+body{
+    background-color: #eae7dc;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #e98074;
+    border-radius: 7px;
+    color: #eae7dc;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    font-family: 'Geneva', 'Calibri';
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 21px;
+    text-align: center;
+}
+
+#headerImage, #footerImage{
+    width : 100%;
+    border-radius: 7px;
+}
+
+.profile img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border: 4px dotted chocolate;
+    padding: 3%;
+}
+
+.profile img:hover{
+    border: 4px dotted rgb(252, 215, 209);
+}
+
+.box{
+    border-radius: 7px;
+    border: 4px dotted chocolate;
+    background-color: #d8c3a5;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    margin-top: 5px;
+    font-family: 'Candara', 'Arial Narrow';
+    font-size: 20px;
+    position: relative;
+    padding: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+.box h2{
+    font-size: 30px;
+    top: 5px;
+    text-align: center;
+}
+
+.box small{
+    text-align: center;
+}
+
+#twticon{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border: 4px dotted chocolate;
+    padding: 0;
+}
+
+#twticon:hover{
+    border: 4px dotted rgb(252, 215, 209);
+    background-color: #e98074;
+}
+
+.button{
+    font-family: 'Geneva', 'Calibri';
+    font-size: 20px;
+    background-color: #e98074;
+    margin: auto;
+    width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: chocolate;
+}
+
+.button:active{
+    background-color: maroon;
+    color: white;
+}
